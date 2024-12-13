@@ -1,0 +1,21 @@
+Script started on 2024-12-13 19:44:44+05:30 [TERM="xterm-kitty" TTY="/dev/pts/1" COLUMNS="114" LINES="37"]
+]0;saicharanruka@msi:~/devops-with-docker/1.1[?2004h[saicharanruka@msi 1.1]$ docker run nginx[C nginx- nginxd nginx[C[C[C[C[C[C
+[?2004l738ea8582e03fa2575e4920cadb9f82701fea3f06a9ab8b3b63bdcab017bd866
+]0;saicharanruka@msi:~/devops-with-docker/1.1[?2004h[saicharanruka@msi 1.1]$ docker run -d nginx
+[?2004lc19235a683985425aca9d8854d27c2d105787b2ac09a66e8f7b524ba6e2a2a3c
+]0;saicharanruka@msi:~/devops-with-docker/1.1[?2004h[saicharanruka@msi 1.1]$ docker run -d nginx
+[?2004l0d0a4e1a1ab95c255689cab3c0a1028b601b11e1b71fb35e841b28251f2cfa05
+]0;saicharanruka@msi:~/devops-with-docker/1.1[?2004h[saicharanruka@msi 1.1]$ docker s[Kcontainer stop 
+distracted_satoshi   kind_gauss           wonderful_zhukovsky  
+[saicharanruka@msi 1.1]$ docker container stop kind_gauss wonderful_zhukovsky 
+[?2004lkind_gauss
+wonderful_zhukovsky
+]0;saicharanruka@msi:~/devops-with-docker/1.1[?2004h[saicharanruka@msi 1.1]$ docker ps -a
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                     PORTS     NAMES
+0d0a4e1a1ab9   nginx     "/docker-entrypoint.…"   31 seconds ago   Exited (0) 7 seconds ago             kind_gauss
+c19235a68398   nginx     "/docker-entrypoint.…"   32 seconds ago   Up 31 seconds              80/tcp    distracted_satoshi
+738ea8582e03   nginx     "/docker-entrypoint.…"   33 seconds ago   Exited (0) 7 seconds ago             wonderful_zhukovsky
+]0;saicharanruka@msi:~/devops-with-docker/1.1[?2004h[saicharanruka@msi 1.1]$ exit
+[?2004lexit
+
+Script done on 2024-12-13 19:45:39+05:30 [COMMAND_EXIT_CODE="0"]
